@@ -7,6 +7,7 @@ An app made for DLP Display wall software MaxWall which is written by swift 2.0 
 
 ### MaxWall on iOS
   MaxWall控制端s和服务器端通信是通过websock进行k链接和数据传输，本程序根据官方websocket接口文档实现了部分windows控制端的功能，软件由swift2.0完成。部分截图如下:
+  
   ![](./PIC/Login.png)
   ![](./PIC/Program.png)
   ![](./PIC/Message.png)
