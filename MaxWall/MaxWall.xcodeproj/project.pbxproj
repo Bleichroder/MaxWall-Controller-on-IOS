@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		825F386CAB5E3FD4BCDF27B7 /* Pods_MaxWall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0462C2B4900B1E1387C4BD07 /* Pods_MaxWall.framework */; };
+		99057C5C1D083D3D0077DB2F /* icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99057C5B1D083D3D0077DB2F /* icon.jpg */; };
+		9908022E1CF7F4030025EB64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9908022D1CF7F4030025EB64 /* AppDelegate.swift */; };
+		990802301CF7F4030025EB64 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9908022F1CF7F4030025EB64 /* LoginController.swift */; };
+		990802331CF7F4030025EB64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990802311CF7F4030025EB64 /* Main.storyboard */; };
+		990802351CF7F4040025EB64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 990802341CF7F4040025EB64 /* Assets.xcassets */; };
+		990802381CF7F4040025EB64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990802361CF7F4040025EB64 /* LaunchScreen.storyboard */; };
+		990802431CF7F4040025EB64 /* MaxWallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990802421CF7F4040025EB64 /* MaxWallTests.swift */; };
+		9908024E1CF7F4040025EB64 /* MaxWallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9908024D1CF7F4040025EB64 /* MaxWallUITests.swift */; };
+		9908025E1CF83D3C0025EB64 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9908025D1CF83D3C0025EB64 /* MainViewController.swift */; };
+		990802661CF849A00025EB64 /* Reference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990802651CF849A00025EB64 /* Reference.swift */; };
+		990802681CFBDE6A0025EB64 /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990802671CFBDE6A0025EB64 /* Program.swift */; };
+		993F1AE91D128E070000AA06 /* MessageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993F1AE81D128E070000AA06 /* MessageViewCell.swift */; };
+		993F1AEB1D128E380000AA06 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993F1AEA1D128E380000AA06 /* MessageViewController.swift */; };
+		993F1AED1D13C9480000AA06 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993F1AEC1D13C9480000AA06 /* Message.swift */; };
+		99690E7B1CFC352800C7F782 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99690E7A1CFC352800C7F782 /* TableViewCell.swift */; };
+		99690E7D1CFC363B00C7F782 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99690E7C1CFC363B00C7F782 /* TableViewController.swift */; };
+		99690E831CFD350B00C7F782 /* MediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99690E821CFD350B00C7F782 /* MediaViewController.swift */; };
+		99690E891CFEB14600C7F782 /* MediaViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99690E881CFEB14600C7F782 /* MediaViewCell.swift */; };
+		99690E8B1CFEC1CE00C7F782 /* MediaInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99690E8A1CFEC1CE00C7F782 /* MediaInfo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9908023F1CF7F4040025EB64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 990802221CF7F4030025EB64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 990802291CF7F4030025EB64;
+			remoteInfo = MaxWall;
+		};
+		9908024A1CF7F4040025EB64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 990802221CF7F4030025EB64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 990802291CF7F4030025EB64;
+			remoteInfo = MaxWall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0462C2B4900B1E1387C4BD07 /* Pods_MaxWall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaxWall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EF4A6D4D7017A608DD780E /* Pods-MaxWall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaxWall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MaxWall/Pods-MaxWall.debug.xcconfig"; sourceTree = "<group>"; };
+		99057C5B1D083D3D0077DB2F /* icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = icon.jpg; path = ../../../Downloads/icon.jpg; sourceTree = "<group>"; };
+		9908022A1CF7F4030025EB64 /* MaxWall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaxWall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9908022D1CF7F4030025EB64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9908022F1CF7F4030025EB64 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		990802321CF7F4030025EB64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		990802341CF7F4040025EB64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		990802371CF7F4040025EB64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		990802391CF7F4040025EB64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9908023E1CF7F4040025EB64 /* MaxWallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaxWallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		990802421CF7F4040025EB64 /* MaxWallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxWallTests.swift; sourceTree = "<group>"; };
+		990802441CF7F4040025EB64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		990802491CF7F4040025EB64 /* MaxWallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaxWallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9908024D1CF7F4040025EB64 /* MaxWallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxWallUITests.swift; sourceTree = "<group>"; };
+		9908024F1CF7F4040025EB64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9908025D1CF83D3C0025EB64 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		990802651CF849A00025EB64 /* Reference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reference.swift; sourceTree = "<group>"; };
+		990802671CFBDE6A0025EB64 /* Program.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Program.swift; sourceTree = "<group>"; };
+		993F1AE81D128E070000AA06 /* MessageViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewCell.swift; sourceTree = "<group>"; };
+		993F1AEA1D128E380000AA06 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		993F1AEC1D13C9480000AA06 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		99690E7A1CFC352800C7F782 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		99690E7C1CFC363B00C7F782 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		99690E821CFD350B00C7F782 /* MediaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaViewController.swift; sourceTree = "<group>"; };
+		99690E881CFEB14600C7F782 /* MediaViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaViewCell.swift; sourceTree = "<group>"; };
+		99690E8A1CFEC1CE00C7F782 /* MediaInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaInfo.swift; sourceTree = "<group>"; };
+		EAFEB8ADF6EE25A47D0817F1 /* Pods-MaxWall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaxWall.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaxWall/Pods-MaxWall.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		990802271CF7F4030025EB64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				825F386CAB5E3FD4BCDF27B7 /* Pods_MaxWall.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9908023B1CF7F4040025EB64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		990802461CF7F4040025EB64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3430A490A29098A4A9627518 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0462C2B4900B1E1387C4BD07 /* Pods_MaxWall.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		646A978A9CC15A207425CDB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18EF4A6D4D7017A608DD780E /* Pods-MaxWall.debug.xcconfig */,
+				EAFEB8ADF6EE25A47D0817F1 /* Pods-MaxWall.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		990802211CF7F4030025EB64 = {
+			isa = PBXGroup;
+			children = (
+				9908022C1CF7F4030025EB64 /* MaxWall */,
+				990802411CF7F4040025EB64 /* MaxWallTests */,
+				9908024C1CF7F4040025EB64 /* MaxWallUITests */,
+				9908022B1CF7F4030025EB64 /* Products */,
+				646A978A9CC15A207425CDB8 /* Pods */,
+				3430A490A29098A4A9627518 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9908022B1CF7F4030025EB64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9908022A1CF7F4030025EB64 /* MaxWall.app */,
+				9908023E1CF7F4040025EB64 /* MaxWallTests.xctest */,
+				990802491CF7F4040025EB64 /* MaxWallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9908022C1CF7F4030025EB64 /* MaxWall */ = {
+			isa = PBXGroup;
+			children = (
+				9908022D1CF7F4030025EB64 /* AppDelegate.swift */,
+				9908022F1CF7F4030025EB64 /* LoginController.swift */,
+				9908025D1CF83D3C0025EB64 /* MainViewController.swift */,
+				99690E7A1CFC352800C7F782 /* TableViewCell.swift */,
+				99690E7C1CFC363B00C7F782 /* TableViewController.swift */,
+				99690E881CFEB14600C7F782 /* MediaViewCell.swift */,
+				99690E821CFD350B00C7F782 /* MediaViewController.swift */,
+				993F1AE81D128E070000AA06 /* MessageViewCell.swift */,
+				993F1AEA1D128E380000AA06 /* MessageViewController.swift */,
+				990802311CF7F4030025EB64 /* Main.storyboard */,
+				990802671CFBDE6A0025EB64 /* Program.swift */,
+				99690E8A1CFEC1CE00C7F782 /* MediaInfo.swift */,
+				993F1AEC1D13C9480000AA06 /* Message.swift */,
+				990802651CF849A00025EB64 /* Reference.swift */,
+				990802341CF7F4040025EB64 /* Assets.xcassets */,
+				990802361CF7F4040025EB64 /* LaunchScreen.storyboard */,
+				990802391CF7F4040025EB64 /* Info.plist */,
+				99057C5B1D083D3D0077DB2F /* icon.jpg */,
+			);
+			path = MaxWall;
+			sourceTree = "<group>";
+		};
+		990802411CF7F4040025EB64 /* MaxWallTests */ = {
+			isa = PBXGroup;
+			children = (
+				990802421CF7F4040025EB64 /* MaxWallTests.swift */,
+				990802441CF7F4040025EB64 /* Info.plist */,
+			);
+			path = MaxWallTests;
+			sourceTree = "<group>";
+		};
+		9908024C1CF7F4040025EB64 /* MaxWallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9908024D1CF7F4040025EB64 /* MaxWallUITests.swift */,
+				9908024F1CF7F4040025EB64 /* Info.plist */,
+			);
+			path = MaxWallUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		990802291CF7F4030025EB64 /* MaxWall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 990802521CF7F4040025EB64 /* Build configuration list for PBXNativeTarget "MaxWall" */;
+			buildPhases = (
+				D4218E320872290C40C5AA58 /* 📦 Check Pods Manifest.lock */,
+				990802261CF7F4030025EB64 /* Sources */,
+				990802271CF7F4030025EB64 /* Frameworks */,
+				990802281CF7F4030025EB64 /* Resources */,
+				8F7D52767B7F0BC6ECE48C36 /* 📦 Embed Pods Frameworks */,
+				5C1F1106CD5EB04FB6905ADA /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaxWall;
+			productName = MaxWall;
+			productReference = 9908022A1CF7F4030025EB64 /* MaxWall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9908023D1CF7F4040025EB64 /* MaxWallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 990802551CF7F4040025EB64 /* Build configuration list for PBXNativeTarget "MaxWallTests" */;
+			buildPhases = (
+				9908023A1CF7F4040025EB64 /* Sources */,
+				9908023B1CF7F4040025EB64 /* Frameworks */,
+				9908023C1CF7F4040025EB64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				990802401CF7F4040025EB64 /* PBXTargetDependency */,
+			);
+			name = MaxWallTests;
+			productName = MaxWallTests;
+			productReference = 9908023E1CF7F4040025EB64 /* MaxWallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		990802481CF7F4040025EB64 /* MaxWallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 990802581CF7F4040025EB64 /* Build configuration list for PBXNativeTarget "MaxWallUITests" */;
+			buildPhases = (
+				990802451CF7F4040025EB64 /* Sources */,
+				990802461CF7F4040025EB64 /* Frameworks */,
+				990802471CF7F4040025EB64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9908024B1CF7F4040025EB64 /* PBXTargetDependency */,
+			);
+			name = MaxWallUITests;
+			productName = MaxWallUITests;
+			productReference = 990802491CF7F4040025EB64 /* MaxWallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		990802221CF7F4030025EB64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = HeHe;
+				TargetAttributes = {
+					990802291CF7F4030025EB64 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					9908023D1CF7F4040025EB64 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 990802291CF7F4030025EB64;
+					};
+					990802481CF7F4040025EB64 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 990802291CF7F4030025EB64;
+					};
+				};
+			};
+			buildConfigurationList = 990802251CF7F4030025EB64 /* Build configuration list for PBXProject "MaxWall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 990802211CF7F4030025EB64;
+			productRefGroup = 9908022B1CF7F4030025EB64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				990802291CF7F4030025EB64 /* MaxWall */,
+				9908023D1CF7F4040025EB64 /* MaxWallTests */,
+				990802481CF7F4040025EB64 /* MaxWallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		990802281CF7F4030025EB64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99057C5C1D083D3D0077DB2F /* icon.jpg in Resources */,
+				990802381CF7F4040025EB64 /* LaunchScreen.storyboard in Resources */,
+				990802351CF7F4040025EB64 /* Assets.xcassets in Resources */,
+				990802331CF7F4030025EB64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9908023C1CF7F4040025EB64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		990802471CF7F4040025EB64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C1F1106CD5EB04FB6905ADA /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MaxWall/Pods-MaxWall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F7D52767B7F0BC6ECE48C36 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MaxWall/Pods-MaxWall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4218E320872290C40C5AA58 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		990802261CF7F4030025EB64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				990802681CFBDE6A0025EB64 /* Program.swift in Sources */,
+				99690E891CFEB14600C7F782 /* MediaViewCell.swift in Sources */,
+				9908025E1CF83D3C0025EB64 /* MainViewController.swift in Sources */,
+				99690E7B1CFC352800C7F782 /* TableViewCell.swift in Sources */,
+				99690E831CFD350B00C7F782 /* MediaViewController.swift in Sources */,
+				990802661CF849A00025EB64 /* Reference.swift in Sources */,
+				993F1AE91D128E070000AA06 /* MessageViewCell.swift in Sources */,
+				990802301CF7F4030025EB64 /* LoginController.swift in Sources */,
+				99690E7D1CFC363B00C7F782 /* TableViewController.swift in Sources */,
+				993F1AED1D13C9480000AA06 /* Message.swift in Sources */,
+				9908022E1CF7F4030025EB64 /* AppDelegate.swift in Sources */,
+				993F1AEB1D128E380000AA06 /* MessageViewController.swift in Sources */,
+				99690E8B1CFEC1CE00C7F782 /* MediaInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9908023A1CF7F4040025EB64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				990802431CF7F4040025EB64 /* MaxWallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		990802451CF7F4040025EB64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9908024E1CF7F4040025EB64 /* MaxWallUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		990802401CF7F4040025EB64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 990802291CF7F4030025EB64 /* MaxWall */;
+			targetProxy = 9908023F1CF7F4040025EB64 /* PBXContainerItemProxy */;
+		};
+		9908024B1CF7F4040025EB64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 990802291CF7F4030025EB64 /* MaxWall */;
+			targetProxy = 9908024A1CF7F4040025EB64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		990802311CF7F4030025EB64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				990802321CF7F4030025EB64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		990802361CF7F4040025EB64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				990802371CF7F4040025EB64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		990802501CF7F4040025EB64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		990802511CF7F4040025EB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		990802531CF7F4040025EB64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18EF4A6D4D7017A608DD780E /* Pods-MaxWall.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MaxWall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Via.MaxWall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		990802541CF7F4040025EB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAFEB8ADF6EE25A47D0817F1 /* Pods-MaxWall.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MaxWall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Via.MaxWall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		990802561CF7F4040025EB64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MaxWallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Via.MaxWallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaxWall.app/MaxWall";
+			};
+			name = Debug;
+		};
+		990802571CF7F4040025EB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MaxWallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Via.MaxWallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaxWall.app/MaxWall";
+			};
+			name = Release;
+		};
+		990802591CF7F4040025EB64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MaxWallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Via.MaxWallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MaxWall;
+			};
+			name = Debug;
+		};
+		9908025A1CF7F4040025EB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MaxWallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Via.MaxWallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MaxWall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		990802251CF7F4030025EB64 /* Build configuration list for PBXProject "MaxWall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				990802501CF7F4040025EB64 /* Debug */,
+				990802511CF7F4040025EB64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		990802521CF7F4040025EB64 /* Build configuration list for PBXNativeTarget "MaxWall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				990802531CF7F4040025EB64 /* Debug */,
+				990802541CF7F4040025EB64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		990802551CF7F4040025EB64 /* Build configuration list for PBXNativeTarget "MaxWallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				990802561CF7F4040025EB64 /* Debug */,
+				990802571CF7F4040025EB64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		990802581CF7F4040025EB64 /* Build configuration list for PBXNativeTarget "MaxWallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				990802591CF7F4040025EB64 /* Debug */,
+				9908025A1CF7F4040025EB64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 990802221CF7F4030025EB64 /* Project object */;
+}
